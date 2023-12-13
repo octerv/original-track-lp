@@ -1,0 +1,20 @@
+#ease-of-use {
+  background: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+#ease-of-use .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#ease-of-use h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#ease-of-use p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}

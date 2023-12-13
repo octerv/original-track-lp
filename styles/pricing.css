@@ -1,0 +1,61 @@
+#pricing {
+  background: #f8f8f8;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+#pricing .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#pricing h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.plan {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 45%; /* 調整が必要な場合は変更 */
+}
+
+.plan h3 {
+  font-size: 1.5rem;
+  color: #0066ff;
+  margin-bottom: 0.5rem;
+}
+
+.plan p,
+.plan ul {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.plan ul {
+  list-style: none;
+  padding: 0;
+}
+
+.plan ul li {
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .plan-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+}

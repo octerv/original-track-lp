@@ -1,0 +1,35 @@
+#use-cases {
+  background: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+#use-cases .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#use-cases h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.case {
+  margin-top: 2rem;
+}
+
+.case h3 {
+  font-size: 1.5rem;
+  color: #0066ff;
+  margin-bottom: 0.5rem;
+}
+
+.case p {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .case {
+    margin-bottom: 2rem;
+  }
+}

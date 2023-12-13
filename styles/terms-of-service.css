@@ -1,0 +1,32 @@
+#terms-of-service {
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+#terms-of-service h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.section-content h2 {
+  color: #0066ff;
+  margin-bottom: 1rem;
+}
+
+.section-content p {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section-content {
+    width: 95%;
+  }
+}

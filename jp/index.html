@@ -1,46 +1,252 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Original Track</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Original Track - 革新的なオーディオ分離技術</title>
+    <meta
+      name="description"
+      content="Original Trackは、革新的なAI駆動のオーディオ分離技術を提供し、あなたの音楽制作や編集体験を向上させます。"
+    />
+    <!-- og -->
+    <meta
+      property="og:title"
+      content="Original Track - 革新的なオーディオ分離技術"
+    />
+    <meta
+      property="og:description"
+      content="最先端のAI駆動のオーディオ分離技術で、音楽制作を強化しましょう。"
+    />
+    <meta
+      property="og:image"
+      content="https://www.original-track.com/images/banner-20231213.jpg"
+    />
+    <meta property="og:url" content="https://www.original-track.com/" />
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../apple-touch-icon.png"
+    />
+    <!-- ここにCSSのリンク -->
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/main-visual.css" />
+    <link rel="stylesheet" href="../styles/service-introduction.css" />
+    <link rel="stylesheet" href="../styles/use-cases.css" />
+    <link rel="stylesheet" href="../styles/technology-innovation.css" />
+    <link rel="stylesheet" href="../styles/ease-of-use.css" />
+    <link rel="stylesheet" href="../styles/pricing.css" />
+    <link rel="stylesheet" href="../styles/faq.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
   </head>
   <body>
+    <!-- ヘッダー -->
     <header>
-      <h1>Original Track</h1>
-      <p>AIによって音源からオリジナルトラックを分離します。</p>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="/jp/index.html#main-visual"
+            ><img src="../images/logo-180x180.png" alt="Original Track Logo"
+          /></a>
+        </div>
+        <div class="nav-contents">
+          <div class="language-switcher">
+            <select onchange="window.location.href=this.value;">
+              <option value="/index.html">English</option>
+              <option value="/jp/index.html" selected>日本語</option>
+            </select>
+          </div>
+          <ul class="nav-links">
+            <li><a href="/jp/index.html#service-introduction">特徴</a></li>
+            <li><a href="/jp/index.html#use-cases">活用例</a></li>
+            <li><a href="/jp/index.html#technology-innovation">技術革新</a></li>
+            <li><a href="/jp/index.html#ease-of-use">使いやすさ</a></li>
+            <li><a href="/jp/index.html#pricing">料金プラン</a></li>
+            <li><a href="/jp/index.html#faq">FAQ</a></li>
+            <li><a href="#sign-up">サインアップ / ログイン</a></li>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </div>
+      </nav>
     </header>
-    <section class="service-intro">
-      <h2>オリジナルトラックを分離</h2>
-      <p>任意の音源からボーカル、ベース、ドラムなどを分離します。</p>
+
+    <!-- メインビジュアル -->
+    <section id="main-visual">
+      <div class="main-visual-content">
+        <h1>音楽とオーディオの未来を再定義</h1>
+        <p>革新的なAIオーディオ分離技術を体験し、創造性を解放しましょう</p>
+        <a href="#sign-up" class="main-visual-btn">今すぐ試す</a>
+      </div>
     </section>
-    <section class="how-to">
-      <h2>使い方</h2>
-      <ol>
-        <li>音源をアップロード</li>
-        <li>AIでオリジナルトラックを分離</li>
-        <li>分離されたオリジナルトラックをダウンロード</li>
-      </ol>
+
+    <!-- サービス紹介 -->
+    <section id="service-introduction">
+      <div class="container">
+        <h2>AIによるオーディオ分離の新時代</h2>
+        <p>
+          最先端AI技術により、音楽制作者、楽器演奏者、DJ、オーディオエンジニア、ポッドキャスト制作者が、オーディオファイルから必要な要素を抽出し、新しい創造性を解放することができます。
+        </p>
+        <div class="service-features">
+          <div class="feature">
+            <h3>高精度な分離</h3>
+            <p>
+              ボーカル、楽器、リズムセクションなど、オーディオの特定のコンポーネントを精密に分離します。
+            </p>
+          </div>
+          <div class="feature">
+            <h3>クリアな音質</h3>
+            <p>
+              背景ノイズや不要な音声を効果的に除去し、クリアでプロフェッショナルな音質を実現します。
+            </p>
+          </div>
+          <div class="feature">
+            <h3>直感的操作</h3>
+            <p>
+              シンプルで直感的なインターフェースにより、誰でも簡単に高度なオーディオ編集を行うことができます。
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="latest-news">
-      <h2>最新ニュースと今後の機能</h2>
-      <p>Original Trackの最新の開発情報と今後の機能について最新情報を入手。</p>
-      <ul>
-        <li>機能アップデート：高度なAI分離アルゴリズム、近日公開</li>
-      </ul>
+
+    <!-- 活用例 -->
+    <section id="use-cases">
+      <div class="container">
+        <h2>活用例</h2>
+        <div class="case">
+          <h3>
+            音楽制作者・アーティストおよびオーディオエンジニア・プロデューサー
+          </h3>
+          <p>
+            音楽制作者やアーティスト、オーディオエンジニアは、過去のデモやライブ演奏から特定のパートを取り出し、リミックスや新たな音楽制作に活用できます。[Original
+            Track]は、これらのプロフェッショナルにとって、創造的なプロセスを強化する強力なツールとなります。
+          </p>
+        </div>
+        <div class="case">
+          <h3>楽器演奏者</h3>
+          <p>
+            市販の音源から特定のパートを抽出し、耳コピのための練習に利用する楽器演奏者にとっても、[Original
+            Track]は価値のあるサービスです。このサービスは、著作権などの権利に抵触しない範囲での使用を念頭に置いています。
+          </p>
+        </div>
+        <div class="case">
+          <h3>ポッドキャスト制作者・インタビュアーおよび教育関係者・学生</h3>
+          <p>
+            インタビューやポッドキャストの音声ファイルからノイズを除去し、クリアな音声を取り出すことができます。教育現場では、この技術を活用して、音声ファイルの分析や教材作成に役立てることができます。
+          </p>
+        </div>
+      </div>
     </section>
+
+    <!-- テクノロジーの革新性 -->
+    <section id="technology-innovation">
+      <div class="container">
+        <h2>AIによる革命的なオーディオ分離</h2>
+        <p>
+          最先端AI技術は、音質を損なうことなく、ボーカル、楽器、リズムセクションなどの特定のコンポーネントを精密に抽出します。これにより、ユーザーは独自の音楽制作やオーディオ編集において、より細やかなコントロールを行うことが可能になります。
+        </p>
+        <p>
+          さらに、この技術は背景ノイズや不要な音声を効果的に除去し、クリアでプロフェッショナルな音質を実現します。ポッドキャスト制作者やインタビュアーにとって、これは高品質なオーディオコンテンツを生成する上で重要な要素です。
+        </p>
+      </div>
+    </section>
+
+    <!-- 使いやすさ -->
+    <section id="ease-of-use">
+      <div class="container">
+        <h2>直感的でシンプルな操作性</h2>
+        <p>
+          Original
+          Trackは使いやすさを最優先に考えて設計されています。わずか数クリックでオーディオファイルをアップロードし、最先端AI技術の処理を開始できます。
+        </p>
+        <p>
+          処理が完了すると、分離された各オーディオトラックは直接ダウンロード可能になり、すぐに編集や再構築に取り掛かることができます。
+        </p>
+        <p>
+          シンプルで直感的なインターフェースは、テクノロジーに詳しくないユーザーでも容易に操作できるように設計されており、時間を節約し、創造的なプロセスを加速します。
+        </p>
+      </div>
+    </section>
+
+    <!-- 料金プラン -->
+    <section id="pricing">
+      <div class="container">
+        <h2>フレキシブルな料金プラン</h2>
+        <div class="plan-container">
+          <div class="plan">
+            <h3>無料枠</h3>
+            <p>
+              無料で始めることができ、6分間のオーディオ処理時間を提供します。基本的なオーディオ分離機能を利用可能です。
+            </p>
+            <ul>
+              <li>無料で6分間の処理時間</li>
+              <li>制限付きアクセス</li>
+            </ul>
+          </div>
+          <div class="plan">
+            <h3>必要な分だけ購入</h3>
+            <p>
+              追加の処理時間は必要に応じて課金されます。1分あたりの料金は$0.162で、1$=150円の場合、1分あたり約24.3円です。
+            </p>
+            <ul>
+              <li>追加処理時間: 1分あたり$0.162（約24.3円）</li>
+              <li>無制限のアクセス</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+      <div class="container">
+        <h2>よくある質問</h2>
+        <div class="faq-item">
+          <h3>Original Trackの使用にはどのような料金がかかりますか？</h3>
+          <p>無料枠に加えて必要な分だけ購入して利用して頂けます。</p>
+        </div>
+        <div class="faq-item">
+          <h3>無料枠は繰り返し適用されますか？</h3>
+          <p>新規アカウント作成時に付与されるのみとなります。</p>
+        </div>
+        <div class="faq-item">
+          <h3>どのようなファイル形式に対応していますか？</h3>
+          <p>主要なオーディオファイル形式（MP3、WAVなど）に対応しています。</p>
+        </div>
+        <div class="faq-item">
+          <h3>オーディオ分離の品質はどの程度ですか？</h3>
+          <p>
+            最先端AI技術により、高品質なオーディオ分離を実現しています。具体的な品質はソースファイルに依存します。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- フッター -->
     <footer>
-      <p>
-        <a href="index.html">ホーム</a> | <a href="pricing.html">料金</a> |
-        <a href="terms-of-service.html">利用規約</a> |
-        <a href="privacy-policy.html">プライバシーポリシー</a> |
-        <a href="tokushoho.html">特定商取引法に基づく表記</a> |
-        <a href="https://forms.gle/RTRbnabSkGvhYs8L6" target="_blank"
-          >お問い合わせ</a
-        >
-      </p>
-      <p>&copy; 2023 Original Track. All rights reserved.</p>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Original Trackについて</h3>
+          <p>革新的なAIオーディオ分離技術を提供するWebサービスです。</p>
+        </div>
+        <div class="footer-section">
+          <ul>
+            <li><a href="/jp/privacy-policy.html">プライバシーポリシー</a></li>
+            <li><a href="/jp/terms-of-service.html">サービス利用規約</a></li>
+            <li><a href="/jp/tokushoho.html">特定商取引法に基づく表示</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2023 Original Track. All rights reserved.</p>
+      </div>
     </footer>
+
+    <!-- JavaScriptファイルを読み込む -->
+    <script src="../scripts/header.js"></script>
   </body>
 </html>

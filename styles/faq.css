@@ -1,0 +1,30 @@
+#faq {
+  background: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+#faq .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#faq h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.faq-item {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.faq-item h3 {
+  font-size: 1.5rem;
+  color: #0066ff;
+  margin-bottom: 0.5rem;
+}
+
+.faq-item p {
+  font-size: 1rem;
+}
