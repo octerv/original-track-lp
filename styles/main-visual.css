@@ -1,7 +1,7 @@
 #main-visual {
   background: url("../images/main-visual.jpg") no-repeat center center/cover;
   color: #fff;
-  height: 100vh;
+  aspect-ratio: 16 / 9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,9 +12,9 @@
 .main-visual-content {
   position: relative;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.5); /* 半透明の背景を追加 */
-  padding: 20px; /* パディングを追加 */
-  border-radius: 10px; /* 角丸効果を追加（オプショナル） */
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .main-visual-content h1 {
