@@ -48,6 +48,7 @@
     <link rel="stylesheet" href="../styles/header.css" />
     <link rel="stylesheet" href="../styles/privacy-policy.css" />
     <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/consent.css" />
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -153,7 +154,17 @@
       </div>
     </footer>
 
+    <!-- Consent -->
+    <div id="consentBanner" style="display: none">
+      <p>
+        このサイトでは分析の目的でクッキーを使用しています。クッキーの使用に同意しますか？
+      </p>
+      <button id="acceptCookies">同意する</button>
+      <button id="declineCookies">同意しない</button>
+    </div>
+
     <!-- JavaScriptファイルを読み込む -->
     <script src="../scripts/header.js"></script>
+    <script src="../scripts/consent.js"></script>
   </body>
 </html>

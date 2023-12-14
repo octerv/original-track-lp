@@ -35,6 +35,7 @@
     <title>404 Not Found - Original Track</title>
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/404.css" />
+    <link rel="stylesheet" href="./styles/consent.css" />
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -53,5 +54,18 @@
       <p>The page you are looking for cannot be found.</p>
       <a href="/">Return to Homepage</a>
     </div>
+
+    <!-- Consent -->
+    <div id="consentBanner" style="display: none">
+      <p>
+        This site uses cookies for analysis purposes. Do you consent to the use
+        of cookies?
+      </p>
+      <button id="acceptCookies">Agree</button>
+      <button id="declineCookies">Disagree</button>
+    </div>
+
+    <!-- Load JavaScript -->
+    <script src="./scripts/consent.js"></script>
   </body>
 </html>

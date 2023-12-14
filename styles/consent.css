@@ -1,0 +1,30 @@
+#consentBanner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+#consentBanner p {
+  margin: 10px 0;
+}
+
+#consentBanner button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#consentBanner button:hover {
+  background-color: #45a049;
+}

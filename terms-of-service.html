@@ -48,6 +48,7 @@
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/terms-of-service.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/consent.css" />
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -166,7 +167,18 @@
       </div>
     </footer>
 
+    <!-- Consent -->
+    <div id="consentBanner" style="display: none">
+      <p>
+        This site uses cookies for analysis purposes. Do you consent to the use
+        of cookies?
+      </p>
+      <button id="acceptCookies">Agree</button>
+      <button id="declineCookies">Disagree</button>
+    </div>
+
     <!-- Load JavaScript -->
     <script src="./scripts/header.js"></script>
+    <script src="./scripts/consent.js"></script>
   </body>
 </html>
