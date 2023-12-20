@@ -1,5 +1,5 @@
 window.onload = function () {
-  var consentGiven = localStorage.getItem("gaConsent");
+  var consentGiven = localStorage.getItem("consentMode");
   if (consentGiven === null) {
     document.getElementById("consentBanner").style.display = "block";
   }
@@ -7,7 +7,7 @@ window.onload = function () {
   document
     .getElementById("acceptCookies")
     .addEventListener("click", function () {
-      localStorage.setItem("gaConsent", "true");
+      localStorage.setItem("consentMode", "true");
       consentUpdate("granted");
       document.getElementById("consentBanner").style.display = "none";
     });
@@ -15,7 +15,7 @@ window.onload = function () {
   document
     .getElementById("declineCookies")
     .addEventListener("click", function () {
-      localStorage.setItem("gaConsent", "false");
+      localStorage.setItem("consentMode", "false");
       document.getElementById("consentBanner").style.display = "none";
     });
 };
