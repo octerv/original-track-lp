@@ -7,13 +7,17 @@
         dataLayer.push(arguments);
       }
 
-      gtag("consent", "default", {
-        analytics_storage: "denied",
-      });
-
-      dataLayer.push({
-        event: "default_consent",
-      });
+      if (localStorage.getItem("consentMode") === null) {
+        gtag("consent", "default", {
+          analytics_storage: "denied",
+        });
+      } else {
+        gtag(
+          "consent",
+          "default",
+          JSON.parse(localStorage.getItem("consentMode"))
+        );
+      }
     </script>
     <!-- Google Tag Manager -->
     <script>
