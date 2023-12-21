@@ -1,3 +1,4 @@
+/* 基本ヘッダースタイル */
 header {
   background: #333;
   color: #fff;
@@ -5,6 +6,7 @@ header {
   text-align: center;
 }
 
+/* ナビゲーションバー */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -14,20 +16,29 @@ header {
   overflow-x: hidden;
 }
 
+/* ロゴ関連スタイル */
 .logo {
   margin-left: 15px;
 }
 
 .logo img {
-  height: 80px;
+  height: 80px; /* ロゴのサイズを設定 */
+  width: auto; /* アスペクト比を維持 */
+  display: block; /* ブロックレベル要素として表示 */
 }
 
+/* ロゴとソーシャルメディアリンクのコンテナ */
+.logo-social-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+/* ナビゲーションリンク */
 .nav-contents {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin: 0;
-  padding: 0;
 }
 
 .nav-links {
@@ -50,6 +61,44 @@ header {
   color: #f0f0f0;
 }
 
+/* ソーシャルメディアリンクスタイル */
+.social-media-links {
+  display: flex;
+  align-items: center; /* アイコンを中央揃え */
+  margin-left: 15px; /* ロゴとの余白 */
+}
+
+.social-media-links a {
+  margin: 0 10px; /* リンク間の余白 */
+  display: flex; /* フレックスコンテナとして表示 */
+  align-items: center; /* リンク内の画像を中央揃え */
+}
+
+.social-media-links img {
+  height: 18px; /* Adjust the height */
+  width: auto; /* Maintain aspect ratio */
+  transition: opacity 0.3s ease;
+  display: block; /* Ensures the image is treated as a block-level element */
+}
+
+.social-media-links a:hover img {
+  opacity: 0.7;
+}
+
+/* 言語切り替えスタイル */
+.language-switcher {
+  margin: 0 32px 16px 0;
+}
+
+.language-switcher select {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+/* ハンバーガーメニュー */
 .burger {
   display: none;
   cursor: pointer;
@@ -63,18 +112,7 @@ header {
   transition: all 0.3s ease;
 }
 
-.language-switcher {
-  margin: 0 32px 16px 0;
-}
-
-.language-switcher select {
-  padding: 5px 10px;
-  border-radius: 5px;
-  border: none;
-  background-color: white;
-  color: black;
-}
-
+/* レスポンシブデザイン */
 @media screen and (max-width: 768px) {
   .nav-links {
     position: absolute;
